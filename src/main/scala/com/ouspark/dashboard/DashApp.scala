@@ -14,6 +14,6 @@ object DashApp extends JSApp {
 
   @JSExport
   override def main() = {
-    AppRouter.router().renderIntoDOM(dom.document.body)
+    AppRouter.router().renderIntoDOM(dom.document.getElementById("wrapper"))
   }
 }

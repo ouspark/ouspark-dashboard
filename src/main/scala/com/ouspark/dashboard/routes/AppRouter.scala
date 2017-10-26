@@ -26,7 +26,6 @@ object AppRouter {
       | workspaceRule)
       .notFound(redirectToPage(Home)(Redirect.Replace))
       .renderWith(layout)
-
   }
 
   val mainMenu = Vector(
@@ -36,7 +35,34 @@ object AppRouter {
   def layout(c: RouterCtl[AppPage], r: Resolution[AppPage]) =
     <.div(
       Navigation(Navigation.Props(mainMenu, r.page, c)),
-      r.render()
+      r.render(),
+      <.footer(^.cls:="main-footer")(
+        <.div(^.cls:="pull-right hidden-xs")(
+          <.b("Version"), " 0.0.1"
+        ),
+        <.strong("Copyright &copy; 2017")(
+          <.a(^.href:="https://github.com/ouspark"),
+          "."),
+        "All rights reserved."
+      ),
+      <.aside(^.cls:="control-sidebar control-sidebar-dark")(
+        <.ul(^.cls:="nav nav-tabs nav-justified control-sidebar-tabs")(
+          <.li(
+            <.a(^.href:="#control-sidebar-home-tab", VdomAttr("data-toggle"):="tab")(
+              <.i(^.cls:="fa fa-home")
+            )
+          ),
+          <.li(
+            <.a(^.href:="#control-sidebar-settings-tab", VdomAttr("data-toggle"):="tab")(
+              <.i(^.cls:="fa fa-gears")
+            )
+          )
+        ),
+        <.div(^.cls:="tab-content")(
+
+        )
+      ),
+      <.div(^.cls:="control-sidebar-bg")
     )
 
   val baseUrl = BaseUrl.fromWindowOrigin / "ouspark/"

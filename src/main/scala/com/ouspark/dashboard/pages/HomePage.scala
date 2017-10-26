@@ -8,8 +8,17 @@ import japgolly.scalajs.react.vdom.html_<^._
   */
 object HomePage {
   val component = ScalaComponent.builder
-    .static("Home")(<.div(^.className:="class", "Home"))
+    .static("Home")(
+      <.div(^.cls:="content-wrapper")(
+        <.section(^.cls:="content-header")(
+          "Home"
+        )
+      )
+    )
     .build
 
   def apply() = component()
+
+  case class Props()
+
 }
