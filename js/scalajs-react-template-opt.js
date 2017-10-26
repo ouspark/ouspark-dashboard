@@ -1189,14 +1189,14 @@ function $asArrayOf_Ljapgolly_scalajs_react_extra_OnUnmount(obj, depth) {
   return (($isArrayOf_Ljapgolly_scalajs_react_extra_OnUnmount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.extra.OnUnmount;", depth))
 }
 function $f_Ljapgolly_scalajs_react_vdom_HtmlAttrs__$$init$__V($thiz) {
-  $thiz.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$key$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V($m_Ljapgolly_scalajs_react_vdom_PackageBase$().VdomAttr$1.Key$1);
-  $thiz.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onChange$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V(new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onChange"));
-  $thiz.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onClick$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V(new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onClick"));
-  $thiz.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onClickCapture$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V(new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onClickCapture"));
-  $thiz.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$src$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V(($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("src")));
-  $thiz.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$title$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V(($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("title")));
-  $thiz.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$type$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V(($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("type")));
-  $thiz.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$value$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V(($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("value")))
+  $thiz.key$1 = $m_Ljapgolly_scalajs_react_vdom_PackageBase$().VdomAttr$1.Key$1;
+  $thiz.onChange$1 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onChange");
+  $thiz.onClick$1 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onClick");
+  $thiz.onClickCapture$1 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onClickCapture");
+  $thiz.src$1 = ($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("src"));
+  $thiz.title$1 = ($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("title"));
+  $thiz.type$1 = ($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("type"));
+  $thiz.value$1 = ($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("value"))
 }
 function $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T($thiz) {
   $m_Ljapgolly_scalajs_react_vdom_Exports$();
@@ -1896,7 +1896,7 @@ $c_Lcom_ouspark_dashboard_components_Navigation$.prototype.init___ = (function()
       var P = $as_Lcom_ouspark_dashboard_components_Navigation$Props(P$2);
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
       var jsx$46 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "header"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("main-header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$45 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "a"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo-mini", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("O"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("SP"))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo-lg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Ouspark"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Admin"))]))]));
+      var jsx$45 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "a"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo-mini", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("O"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("sp"))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo-lg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Ouspark"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Admin"))]))]));
       var jsx$44 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "nav"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("navbar navbar-static-top", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
       var jsx$43 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
@@ -2050,11 +2050,6 @@ function $h_Lcom_ouspark_dashboard_components_Sidebar$() {
   /*<skip>*/
 }
 $h_Lcom_ouspark_dashboard_components_Sidebar$.prototype = $c_Lcom_ouspark_dashboard_components_Sidebar$.prototype;
-$c_Lcom_ouspark_dashboard_components_Sidebar$.prototype.apply__Lcom_ouspark_dashboard_components_Sidebar$Props__Ljapgolly_scalajs_react_vdom_VdomElement = (function(props) {
-  var c = this.component$1;
-  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
-  return $as_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple(this$2.construct$2.apply__O__O__O(props, this$2.mods$2)).vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
-});
 $c_Lcom_ouspark_dashboard_components_Sidebar$.prototype.init___ = (function() {
   $n_Lcom_ouspark_dashboard_components_Sidebar$ = this;
   $m_Ljapgolly_scalajs_react_component_ScalaBuilder$();
@@ -2169,6 +2164,11 @@ $c_Lcom_ouspark_dashboard_components_Sidebar$.prototype.init___ = (function() {
   })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
   return this
 });
+$c_Lcom_ouspark_dashboard_components_Sidebar$.prototype.apply__Lcom_ouspark_dashboard_components_Sidebar$Props__Ljapgolly_scalajs_react_vdom_VdomElement = (function(props) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  return $as_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple(this$2.construct$2.apply__O__O__O(props, this$2.mods$2)).vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
 var $d_Lcom_ouspark_dashboard_components_Sidebar$ = new $TypeData().initClass({
   Lcom_ouspark_dashboard_components_Sidebar$: 0
 }, false, "com.ouspark.dashboard.components.Sidebar$", {
@@ -2203,54 +2203,20 @@ $c_Lcom_ouspark_dashboard_pages_DashboardPage$.prototype.init___ = (function() {
   this.component$1 = ($m_Ljapgolly_scalajs_react_component_ScalaBuilder$(), b.stateless__Ljapgolly_scalajs_react_component_ScalaBuilder$Step2()).noBackend__Ljapgolly_scalajs_react_component_ScalaBuilder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_ScalaBuilder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
     return (function(P$2) {
       var P = $as_T(P$2);
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      var jsx$17 = ($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("breadcrumbs ace-save-state", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_all$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content-wrapper", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("minHeight")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("901px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "section"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content-header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$4 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "h1"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(P)), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "small"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Control panel"))]))]));
+      var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ol"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("breadcrumb", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
       $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$8 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("id");
-      var t = $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2;
-      var jsx$16 = jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$17, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$8.name$1, "breadcrumbs")]));
-      var jsx$15 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_all$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("breadcrumb", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2)]));
-      var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      var jsx$13 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_all$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("ace-icon fa fa-home home-icon", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2)]));
-      var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$17 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-      var t$1 = $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2;
-      var jsx$11 = jsx$15.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$14.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$13, jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$17.name$1, "#")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_all$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Home"))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_all$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("active", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_all$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(P))]))]));
-      var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      var jsx$9 = ($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-search", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$28 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("id");
-      var t$2 = $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2;
-      var jsx$8 = jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$9, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$28.name$1, "nav-search")]));
-      var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_all$(), "form"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-search", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2)]));
-      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_all$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-icon", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2)]));
-      var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_all$().input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
-      var this$33 = $m_Ljapgolly_scalajs_react_vdom_all$();
-      var jsx$4 = this$33.type$3.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("text", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$36 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("placeholder");
-      var t$3 = $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2;
-      var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$36.name$1, "Search...");
-      var jsx$2 = ($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-search-input", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_all$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$40 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("id");
-      var t$4 = $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2;
-      var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$4, this$40.name$1, "nav-search-input");
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$42 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("autoComplete");
-      var t$5 = $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2;
-      var a = jsx$16.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$11, jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$7.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$3, jsx$2, jsx$1, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$5, this$42.name$1, "off")])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_all$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_all$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("ace-icon fa fa-search nav-search-icon", $m_Ljapgolly_scalajs_react_vdom_all$().vdomAttrVtString$2)]))]))]))]))]));
+      var this$22 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+      var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var a = jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$22.name$1, "#")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-dashboard", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Home"))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("active", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(P))]))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "section"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("row", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($m_sci_Nil$()), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("row", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($m_sci_Nil$())]))]));
       return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
   })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
@@ -2289,10 +2255,34 @@ function $h_Lcom_ouspark_dashboard_pages_HomePage$() {
 $h_Lcom_ouspark_dashboard_pages_HomePage$.prototype = $c_Lcom_ouspark_dashboard_pages_HomePage$.prototype;
 $c_Lcom_ouspark_dashboard_pages_HomePage$.prototype.init___ = (function() {
   $n_Lcom_ouspark_dashboard_pages_HomePage$ = this;
-  var jsx$1 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
+  var jsx$14 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content-wrapper", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "section"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content-header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Home"))]))]));
-  this.component$1 = jsx$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_ScalaBuilder$Step4("Home", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  var jsx$13 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "aside"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("main-sidebar", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "section"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("sidebar", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("user-panel", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("pull-left image", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var this$10 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+  var jsx$7 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$10);
+  var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("img/user2-160x160.jpg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$5 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("img-circle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$14 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("alt");
+  var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var jsx$4 = jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$7, new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$6, jsx$5, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$14.name$1, "User Image")]))]));
+  var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("pull-left info", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "p"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Spark Ou"))]));
+  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$23 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+  var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var a = jsx$13.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$12.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$10.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2, jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$23.name$1, "")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-circle text-success", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Online"))]))]))]))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content-wrapper", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("minHeight")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("901px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "section"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content-header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Home"))]))]))]));
+  this.component$1 = jsx$14.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_ScalaBuilder$Step4("Home", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
   return this
 });
 $c_Lcom_ouspark_dashboard_pages_HomePage$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
@@ -2334,7 +2324,7 @@ $c_Lcom_ouspark_dashboard_pages_WorkspacePage$.prototype.init___ = (function() {
     return (function(P$2) {
       var P = $as_Lcom_ouspark_dashboard_pages_WorkspacePage$Props(P$2);
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("auto", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lcom_ouspark_dashboard_components_Sidebar$().apply__Lcom_ouspark_dashboard_components_Sidebar$Props__Ljapgolly_scalajs_react_vdom_VdomElement(new $c_Lcom_ouspark_dashboard_components_Sidebar$Props().init___sci_Vector__Lcom_ouspark_dashboard_routes_Workspace__Ljapgolly_scalajs_react_extra_router_RouterCtl($m_Lcom_ouspark_dashboard_routes_Workspace$().menu$1, P.selectedPage$1, P.c$1)), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content-wrapper", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "section"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("content-header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$as_Ljapgolly_scalajs_react_vdom_TagMod(P.selectedPage$1.render$1.apply__O())]))]))]));
+      var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("auto", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lcom_ouspark_dashboard_components_Sidebar$().apply__Lcom_ouspark_dashboard_components_Sidebar$Props__Ljapgolly_scalajs_react_vdom_VdomElement(new $c_Lcom_ouspark_dashboard_components_Sidebar$Props().init___sci_Vector__Lcom_ouspark_dashboard_routes_Workspace__Ljapgolly_scalajs_react_extra_router_RouterCtl($m_Lcom_ouspark_dashboard_routes_Workspace$().menu$1, P.selectedPage$1, P.c$1)), $as_Ljapgolly_scalajs_react_vdom_TagMod(P.selectedPage$1.render$1.apply__O())]));
       return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
   })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
@@ -2442,50 +2432,75 @@ $c_Lcom_ouspark_dashboard_routes_AppRouter$.prototype.init___ = (function() {
   return this
 });
 $c_Lcom_ouspark_dashboard_routes_AppRouter$.prototype.layout__Ljapgolly_scalajs_react_extra_router_RouterCtl__Ljapgolly_scalajs_react_extra_router_Resolution__Ljapgolly_scalajs_react_vdom_TagOf = (function(c, r) {
-  var jsx$17 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$27 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var u = $m_Lcom_ouspark_dashboard_components_Navigation$().apply__Lcom_ouspark_dashboard_components_Navigation$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_Lcom_ouspark_dashboard_components_Navigation$Props().init___sci_Vector__Lcom_ouspark_dashboard_routes_AppRouter$AppPage__Ljapgolly_scalajs_react_extra_router_RouterCtl(this.mainMenu$1, $as_Lcom_ouspark_dashboard_routes_AppRouter$AppPage(r.page$1), c));
-  var jsx$16 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
-  var jsx$15 = $as_Ljapgolly_scalajs_react_vdom_TagMod(r.render$1.apply__O());
-  var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "footer"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("main-footer", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-  var jsx$13 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("pull-right hidden-xs", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Version"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(" 0.0.1"))]));
-  var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "strong"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Copyright &copy; 2017"))]));
-  var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$26 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+  var jsx$25 = $as_Ljapgolly_scalajs_react_vdom_TagMod(r.render$1.apply__O());
+  var jsx$24 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "footer"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("main-footer", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$23 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("pull-right hidden-xs", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Version"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(" 0.0.1"))]));
+  var jsx$22 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "strong"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Copyright &copy; 2017"))]));
+  var jsx$21 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
   var this$18 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
   var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-  var jsx$10 = jsx$14.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$13, jsx$12.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$11.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$18.name$1, "https://github.com/ouspark")])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("."))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("All rights reserved."))]));
-  var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "aside"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("control-sidebar control-sidebar-dark", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-  var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav nav-tabs nav-justified control-sidebar-tabs", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-  var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$20 = jsx$24.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$23, jsx$22.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$21.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$18.name$1, "https://github.com/ouspark")])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("."))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("All rights reserved."))]));
+  var jsx$19 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "aside"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("control-sidebar control-sidebar-dark", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav nav-tabs nav-justified control-sidebar-tabs", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$17 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
   var this$31 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
   var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-  var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$31.name$1, "#control-sidebar-home-tab");
+  var jsx$15 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$31.name$1, "#control-sidebar-home-tab");
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var this$33 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
   var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-  var jsx$4 = jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$5, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$33.name$1, "tab")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-home", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]))]))]));
-  var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$14 = jsx$17.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$16.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$15, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$33.name$1, "tab")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-home", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]))]))]));
+  var jsx$13 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
   var this$40 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
   var t$3 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$40.name$1, "#control-sidebar-settings-tab");
+  var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$40.name$1, "#control-sidebar-settings-tab");
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var this$42 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
   var t$4 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-  return jsx$17.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$16, jsx$15, jsx$10, jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$4, this$42.name$1, "tab")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-gears", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]))]))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("tab-content", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($m_sci_Nil$())])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("control-sidebar-bg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]))]))
+  var jsx$10 = jsx$18.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$14, jsx$13.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$11, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$4, this$42.name$1, "tab")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-gears", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]))]))]))]));
+  var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("tab-content", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+  var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$7 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("tab-pane", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$51 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("id");
+  var t$5 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var jsx$6 = jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$7, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$5, this$51.name$1, "control-sidebar-home-tab")]));
+  var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$4 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("tab-pane", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$56 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("id");
+  var t$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var jsx$3 = jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$4, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$6, this$56.name$1, "control-sidebar-stats-tab")]));
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("tab-pane", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$61 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("id");
+  var t$7 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  return jsx$27.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$26, jsx$25, jsx$20, jsx$19.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$10, jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$6, jsx$3, jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$7, this$61.name$1, "control-sidebar-settings-tab")]))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("control-sidebar-bg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]))]))
 });
 var $d_Lcom_ouspark_dashboard_routes_AppRouter$ = new $TypeData().initClass({
   Lcom_ouspark_dashboard_routes_AppRouter$: 0
@@ -8296,6 +8311,14 @@ $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T = (function(name) {
   $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.init___T.call(this, ("style." + name));
   return this
 });
+var $d_Ljapgolly_scalajs_react_vdom_Style = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_Style: 0
+}, false, "japgolly.scalajs.react.vdom.Style", {
+  Ljapgolly_scalajs_react_vdom_Style: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_Style.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Style;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$1() {
   $c_O.call(this);
@@ -12422,30 +12445,6 @@ $c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.init___ = (function
   $n_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$ = this;
   $f_Ljapgolly_scalajs_react_vdom_HtmlAttrs__$$init$__V(this);
   return this
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onChange$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V = (function(x$1) {
-  this.onChange$1 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$title$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.title$1 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$key$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.key$1 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onClickCapture$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V = (function(x$1) {
-  this.onClickCapture$1 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onClick$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V = (function(x$1) {
-  this.onClick$1 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$value$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.value$1 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$type$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.type$1 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$src$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.src$1 = x$1
 });
 var $d_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$: 0
@@ -20829,151 +20828,6 @@ function $isArrayOf_sc_LinearSeqLike(obj, depth) {
 }
 function $asArrayOf_sc_LinearSeqLike(obj, depth) {
   return (($isArrayOf_sc_LinearSeqLike(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.collection.LinearSeqLike;", depth))
-}
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_vdom_all$() {
-  $c_Ljapgolly_scalajs_react_vdom_PackageBase.call(this);
-  this.backgroundAttachment$module$3 = null;
-  this.backgroundOrigin$module$3 = null;
-  this.backgroundClip$module$3 = null;
-  this.backgroundSize$module$3 = null;
-  this.borderCollapse$module$3 = null;
-  this.borderSpacing$module$3 = null;
-  this.boxSizing$module$3 = null;
-  this.color$module$3 = null;
-  this.clip$module$3 = null;
-  this.cursor$module$3 = null;
-  this.float$module$3 = null;
-  this.direction$module$3 = null;
-  this.display$module$3 = null;
-  this.pointerEvents$module$3 = null;
-  this.listStyleImage$module$3 = null;
-  this.listStylePosition$module$3 = null;
-  this.wordWrap$module$3 = null;
-  this.verticalAlign$module$3 = null;
-  this.mask$module$3 = null;
-  this.emptyCells$module$3 = null;
-  this.listStyleType$module$3 = null;
-  this.captionSide$module$3 = null;
-  this.position$module$3 = null;
-  this.quotes$module$3 = null;
-  this.tableLayout$module$3 = null;
-  this.fontSize$module$3 = null;
-  this.fontWeight$module$3 = null;
-  this.fontStyle$module$3 = null;
-  this.clear$module$3 = null;
-  this.outlineWidth$module$3 = null;
-  this.outlineColor$module$3 = null;
-  this.textDecoration$module$3 = null;
-  this.textOverflow$module$3 = null;
-  this.textUnderlinePosition$module$3 = null;
-  this.textTransform$module$3 = null;
-  this.visibility$module$3 = null;
-  this.whiteSpace$module$3 = null;
-  this.backfaceVisibility$module$3 = null;
-  this.columns$module$3 = null;
-  this.columnFill$module$3 = null;
-  this.columnSpan$module$3 = null;
-  this.columnRuleWidth$module$3 = null;
-  this.columnRuleStyle$module$3 = null;
-  this.alignContent$module$3 = null;
-  this.alignSelf$module$3 = null;
-  this.flexWrap$module$3 = null;
-  this.alignItems$module$3 = null;
-  this.justifyContent$module$3 = null;
-  this.flexDirection$module$3 = null;
-  this.transformStyle$module$3 = null;
-  this.unicodeBidi$module$3 = null;
-  this.wordBreak$module$3 = null;
-  this.aria$module$3 = null;
-  this.autoComplete$module$3 = null;
-  this.key$3 = null;
-  this.onChange$3 = null;
-  this.onClick$3 = null;
-  this.onClickCapture$3 = null;
-  this.src$3 = null;
-  this.target$module$3 = null;
-  this.title$3 = null;
-  this.type$3 = null;
-  this.value$3 = null;
-  this.wrap$module$3 = null;
-  this.input$module$3 = null
-}
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype = new $h_Ljapgolly_scalajs_react_vdom_PackageBase();
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_all$;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_vdom_all$() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_vdom_all$.prototype = $c_Ljapgolly_scalajs_react_vdom_all$.prototype;
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.init___ = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Exports.prototype.init___.call(this);
-  $f_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomAttr1__$$init$__V(this);
-  $f_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomAttr__$$init$__V(this);
-  $n_Ljapgolly_scalajs_react_vdom_all$ = this;
-  $f_Ljapgolly_scalajs_react_vdom_HtmlAttrs__$$init$__V(this);
-  return this
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onChange$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V = (function(x$1) {
-  this.onChange$3 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$title$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.title$3 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$key$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.key$3 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onClickCapture$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V = (function(x$1) {
-  this.onClickCapture$3 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$ = (function() {
-  if (($m_Ljapgolly_scalajs_react_vdom_all$().input$module$3 === null)) {
-    this.input$lzycompute$1__p3__V()
-  };
-  return $m_Ljapgolly_scalajs_react_vdom_all$().input$module$3
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$onClick$und$eq__Ljapgolly_scalajs_react_vdom_Attr$Event__V = (function(x$1) {
-  this.onClick$3 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.input$lzycompute$1__p3__V = (function() {
-  if (($m_Ljapgolly_scalajs_react_vdom_all$().input$module$3 === null)) {
-    $m_Ljapgolly_scalajs_react_vdom_all$().input$module$3 = new $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$().init___Ljapgolly_scalajs_react_vdom_HtmlTags(this)
-  }
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$value$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.value$3 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$type$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.type$3 = x$1
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.japgolly$scalajs$react$vdom$HtmlAttrs$$undsetter$und$src$und$eq__Ljapgolly_scalajs_react_vdom_Attr__V = (function(x$1) {
-  this.src$3 = x$1
-});
-var $d_Ljapgolly_scalajs_react_vdom_all$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_all$: 0
-}, false, "japgolly.scalajs.react.vdom.all$", {
-  Ljapgolly_scalajs_react_vdom_all$: 1,
-  Ljapgolly_scalajs_react_vdom_PackageBase: 1,
-  Ljapgolly_scalajs_react_vdom_Exports: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_vdom_Implicits: 1,
-  Ljapgolly_scalajs_react_vdom_ImplicitsForTagMod: 1,
-  Ljapgolly_scalajs_react_vdom_ImplicitsForVdomAttr: 1,
-  Ljapgolly_scalajs_react_vdom_ImplicitsForVdomAttr1: 1,
-  Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode: 1,
-  Ljapgolly_scalajs_react_vdom_ImplicitsForVdomElement: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlTags: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlAttrs: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlStyles: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_all$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_all$;
-var $n_Ljapgolly_scalajs_react_vdom_all$ = (void 0);
-function $m_Ljapgolly_scalajs_react_vdom_all$() {
-  if ((!$n_Ljapgolly_scalajs_react_vdom_all$)) {
-    $n_Ljapgolly_scalajs_react_vdom_all$ = new $c_Ljapgolly_scalajs_react_vdom_all$().init___()
-  };
-  return $n_Ljapgolly_scalajs_react_vdom_all$
 }
 function $f_sc_IndexedSeqOptimized__lengthCompare__I__I($thiz, len) {
   return (($thiz.length__I() - len) | 0)

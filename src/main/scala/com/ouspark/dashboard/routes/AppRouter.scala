@@ -59,7 +59,9 @@ object AppRouter {
           )
         ),
         <.div(^.cls:="tab-content")(
-
+          <.div(^.cls:="tab-pane", ^.id:="control-sidebar-home-tab"),
+          <.div(^.cls:="tab-pane", ^.id:="control-sidebar-stats-tab"),
+          <.div(^.cls:="tab-pane", ^.id:="control-sidebar-settings-tab")
         )
       ),
       <.div(^.cls:="control-sidebar-bg")

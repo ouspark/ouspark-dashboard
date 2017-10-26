@@ -17,11 +17,7 @@ object WorkspacePage {
     .render_P { P =>
       <.div(^.height:="auto")(
         Sidebar(Sidebar.Props(Workspace.menu, P.selectedPage, P.c)),
-        <.div(^.cls:="content-wrapper")(
-          <.section(^.cls:="content-header")(
-            P.selectedPage.render()
-          )
-        )
+        P.selectedPage.render()
       )
     }
     .build

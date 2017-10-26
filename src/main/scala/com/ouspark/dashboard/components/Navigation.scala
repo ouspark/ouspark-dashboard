@@ -18,7 +18,7 @@ object Navigation {
       <.header(^.cls:="main-header")(
         <.a(^.cls:="logo")(
           <.span(^.cls:="logo-mini")(
-            <.b("O"),"SP"
+            <.b("O"),"sp"
           ),
           <.span(^.cls:="logo-lg")(
             <.b("Ouspark"), "Admin"
