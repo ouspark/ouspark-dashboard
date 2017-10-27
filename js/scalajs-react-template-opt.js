@@ -1875,6 +1875,44 @@ function $f_sci_VectorPointer__gotoNextBlockStartWritable__I__I__V($thiz, index,
   }
 }
 /** @constructor */
+function $c_Lcom_ouspark_dashboard_components_Logo$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_ouspark_dashboard_components_Logo$.prototype = new $h_O();
+$c_Lcom_ouspark_dashboard_components_Logo$.prototype.constructor = $c_Lcom_ouspark_dashboard_components_Logo$;
+/** @constructor */
+function $h_Lcom_ouspark_dashboard_components_Logo$() {
+  /*<skip>*/
+}
+$h_Lcom_ouspark_dashboard_components_Logo$.prototype = $c_Lcom_ouspark_dashboard_components_Logo$.prototype;
+$c_Lcom_ouspark_dashboard_components_Logo$.prototype.init___ = (function() {
+  $n_Lcom_ouspark_dashboard_components_Logo$ = this;
+  var jsx$1 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "a"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo-mini", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("O"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("sp"))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo-lg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Ouspark"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Admin"))]))]));
+  this.component$1 = jsx$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_ScalaBuilder$Step4("Logo", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  return this
+});
+$c_Lcom_ouspark_dashboard_components_Logo$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  var c = this.component$1;
+  return $as_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O()).vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+var $d_Lcom_ouspark_dashboard_components_Logo$ = new $TypeData().initClass({
+  Lcom_ouspark_dashboard_components_Logo$: 0
+}, false, "com.ouspark.dashboard.components.Logo$", {
+  Lcom_ouspark_dashboard_components_Logo$: 1,
+  O: 1
+});
+$c_Lcom_ouspark_dashboard_components_Logo$.prototype.$classData = $d_Lcom_ouspark_dashboard_components_Logo$;
+var $n_Lcom_ouspark_dashboard_components_Logo$ = (void 0);
+function $m_Lcom_ouspark_dashboard_components_Logo$() {
+  if ((!$n_Lcom_ouspark_dashboard_components_Logo$)) {
+    $n_Lcom_ouspark_dashboard_components_Logo$ = new $c_Lcom_ouspark_dashboard_components_Logo$().init___()
+  };
+  return $n_Lcom_ouspark_dashboard_components_Logo$
+}
+/** @constructor */
 function $c_Lcom_ouspark_dashboard_components_Navigation$() {
   $c_O.call(this);
   this.component$1 = null
@@ -1895,125 +1933,11 @@ $c_Lcom_ouspark_dashboard_components_Navigation$.prototype.init___ = (function()
     return (function(P$2) {
       var P = $as_Lcom_ouspark_dashboard_components_Navigation$Props(P$2);
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$46 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "header"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("main-header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$45 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "a"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo-mini", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("O"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("sp"))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("logo-lg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "b"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Ouspark"))])), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Admin"))]))]));
-      var jsx$44 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "nav"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("navbar navbar-static-top", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$43 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "header"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("main-header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$1 = $m_Lcom_ouspark_dashboard_components_Logo$().apply__Ljapgolly_scalajs_react_vdom_VdomElement();
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$27 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-      var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$42 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$27.name$1, "#");
-      var jsx$41 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("sidebar-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$30 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
-      var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$40 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$30.name$1, "push-menu");
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$33 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("role");
-      var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$39 = jsx$43.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$42, jsx$41, jsx$40, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$33.name$1, "button")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("sr-only", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Toggle navigation"))]))]));
-      var jsx$38 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("navbar-custom-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$37 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav navbar-nav", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$30 = $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var as = P.menus$1;
-      var jsx$29 = jsx$30.toTagMod$extension__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_TagMod(as, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, P$1) {
-        return (function(item$2) {
-          var item = $as_Lcom_ouspark_dashboard_models_NavMenu(item$2);
-          var jsx$36 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("grey dropdown-modal", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-          var jsx$35 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-          var jsx$34 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-          $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-          var this$49 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-          var t$3 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-          var jsx$33 = jsx$35.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$34, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$49.name$1, "#")]));
-          var jsx$32 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-dashboard-o", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-          var jsx$31 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-          var v = item.name$1;
-          return jsx$36.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$33.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$32, jsx$31.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("span", new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v)]))])), P$1.ctrl$1.setOnClick__O__Ljapgolly_scalajs_react_vdom_TagMod(item.route$1)]))
-        })
-      })(this$2$1, P)));
-      var jsx$28 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown messages-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$27 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$60 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-      var t$4 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$26 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$4, this$60.name$1, "#");
-      var jsx$25 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$63 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
-      var t$5 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$24 = jsx$28.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$27.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$26, jsx$25, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$5, this$63.name$1, "dropdown")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-envelope-o", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("label label-success", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("4"))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("You have 4 messages"))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Youuuuuu"))]))]))]));
-      var jsx$23 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown notifications-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$22 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$84 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-      var t$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$21 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$6, this$84.name$1, "#");
-      var jsx$20 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$87 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
-      var t$7 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$19 = jsx$23.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$22.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$21, jsx$20, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$7, this$87.name$1, "dropdown")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-bell-o", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("label label-warning", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("4"))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("You have 4 notifications"))]))]))]));
-      var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown tasks-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$17 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$105 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-      var t$8 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$8, this$105.name$1, "#");
-      var jsx$15 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$108 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
-      var t$9 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$14 = jsx$18.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$17.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$16, jsx$15, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$9, this$108.name$1, "dropdown")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-flag-o", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("label label-danger", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("4"))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("You have 4 tasks"))]))]))]));
-      var jsx$13 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown user user-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
-      var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$126 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-      var t$10 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$10, this$126.name$1, "#");
-      var jsx$10 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$129 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
-      var t$11 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$9 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$11, jsx$10, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$11, this$129.name$1, "dropdown")]));
-      var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      var this$130 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
-      var jsx$7 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$130);
-      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("img/user2-160x160.jpg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-      var jsx$5 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("user-image", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$134 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("alt");
-      var t$12 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$4 = jsx$13.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$7, new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$6, jsx$5, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$12, this$134.name$1, "User Image")])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("hidden-xs", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Spark Ou"))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($m_sci_Nil$())]));
-      var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), $m_sci_Nil$());
-      var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$145 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-      var t$13 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$13, this$145.name$1, "#");
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$147 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
-      var t$14 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var a = jsx$46.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$45, jsx$44.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$39, jsx$38.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$37.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$29, jsx$24, jsx$19, jsx$14, jsx$4, jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$14, this$147.name$1, "control-sidebar")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-gears", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]))]))]))]))]))]))]));
+      var u = $m_Lcom_ouspark_dashboard_components_Notification$().apply__Lcom_ouspark_dashboard_components_Navigation$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(P);
+      var a = jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()]));
       return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
   })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
@@ -2037,6 +1961,183 @@ function $m_Lcom_ouspark_dashboard_components_Navigation$() {
     $n_Lcom_ouspark_dashboard_components_Navigation$ = new $c_Lcom_ouspark_dashboard_components_Navigation$().init___()
   };
   return $n_Lcom_ouspark_dashboard_components_Navigation$
+}
+/** @constructor */
+function $c_Lcom_ouspark_dashboard_components_Notification$() {
+  $c_O.call(this);
+  this.msgSection$1 = null;
+  this.notifySection$1 = null;
+  this.taskSection$1 = null;
+  this.sections$1 = null;
+  this.navMsgEles$1 = null;
+  this.component$1 = null
+}
+$c_Lcom_ouspark_dashboard_components_Notification$.prototype = new $h_O();
+$c_Lcom_ouspark_dashboard_components_Notification$.prototype.constructor = $c_Lcom_ouspark_dashboard_components_Notification$;
+/** @constructor */
+function $h_Lcom_ouspark_dashboard_components_Notification$() {
+  /*<skip>*/
+}
+$h_Lcom_ouspark_dashboard_components_Notification$.prototype = $c_Lcom_ouspark_dashboard_components_Notification$.prototype;
+$c_Lcom_ouspark_dashboard_components_Notification$.prototype.init___ = (function() {
+  $n_Lcom_ouspark_dashboard_components_Notification$ = this;
+  this.msgSection$1 = new $c_Lcom_ouspark_dashboard_components_MsgSection().init___T__T__T__sc_Seq("dropdown message-menu", "fa fa-envelope-o", "label label-success", $m_Lcom_ouspark_dashboard_components_MsgSection$().apply$default$4__sc_Seq());
+  this.notifySection$1 = new $c_Lcom_ouspark_dashboard_components_MsgSection().init___T__T__T__sc_Seq("dropdown notifications-menu", "fa fa-bell-o", "label label-warning", $m_Lcom_ouspark_dashboard_components_MsgSection$().apply$default$4__sc_Seq());
+  this.taskSection$1 = new $c_Lcom_ouspark_dashboard_components_MsgSection().init___T__T__T__sc_Seq("dropdown tasks-menu", "fa fa-flag-o", "label label-danger", $m_Lcom_ouspark_dashboard_components_MsgSection$().apply$default$4__sc_Seq());
+  var this$1 = $m_s_package$().Vector$1;
+  var array = [this.msgSection$1, this.notifySection$1, this.taskSection$1];
+  if (($uI(array.length) === 0)) {
+    var jsx$1 = this$1.NIL$6
+  } else {
+    var b = new $c_sci_VectorBuilder().init___();
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      b.$$plus$eq__O__sci_VectorBuilder(arg1);
+      i = ((1 + i) | 0)
+    };
+    var jsx$1 = b.result__sci_Vector()
+  };
+  this.sections$1 = jsx$1;
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var as = this.sections$1;
+  this.navMsgEles$1 = jsx$2.toTagMod$extension__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_TagMod(as, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(item$2) {
+      var item = $as_Lcom_ouspark_dashboard_components_MsgSection(item$2);
+      var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(item.liCls$1, $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$8 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+      var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$8.name$1, "#");
+      var jsx$6 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$11 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
+      var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$5 = jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$7, jsx$6, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$11.name$1, "dropdown")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(item.icon$1, $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(item.labelCls$1, $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("4"))]))]));
+      var jsx$4 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("header", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var v = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["You have ", " messages"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([item.messages$1.length__I()]));
+      return jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$5, jsx$4.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v)]))]))]))
+    })
+  })(this)));
+  $m_Ljapgolly_scalajs_react_component_ScalaBuilder$();
+  $m_Ljapgolly_scalajs_react_package$();
+  var b$1 = new $c_Ljapgolly_scalajs_react_component_ScalaBuilder$Step1().init___T("Notifications");
+  this.component$1 = ($m_Ljapgolly_scalajs_react_component_ScalaBuilder$(), b$1.stateless__Ljapgolly_scalajs_react_component_ScalaBuilder$Step2()).noBackend__Ljapgolly_scalajs_react_component_ScalaBuilder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_ScalaBuilder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
+    return (function(P$2) {
+      var P = $as_Lcom_ouspark_dashboard_components_Navigation$Props(P$2);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var jsx$35 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "nav"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("navbar navbar-static-top", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$34 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$32 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+      var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$33 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$32.name$1, "#");
+      var jsx$32 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("sidebar-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$35 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
+      var t$3 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$31 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$35.name$1, "push-menu");
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$38 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("role");
+      var t$4 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$30 = jsx$34.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$33, jsx$32, jsx$31, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$4, this$38.name$1, "button")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("sr-only", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Toggle navigation"))]))]));
+      var jsx$29 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("navbar-custom-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$28 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav navbar-nav", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$27 = this$3$1.navMsgEles$1;
+      var jsx$26 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown user user-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$25 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$52 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+      var t$5 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$24 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$5, this$52.name$1, "#");
+      var jsx$23 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$55 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
+      var t$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$22 = jsx$25.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$24, jsx$23, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$6, this$55.name$1, "dropdown")]));
+      var jsx$21 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      var this$56 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+      var jsx$20 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$56);
+      var jsx$19 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("img/user2-160x160.jpg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+      var jsx$18 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("user-image", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$60 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("alt");
+      var t$7 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$17 = jsx$26.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$22.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$21.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$20, new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$19, jsx$18, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$7, this$60.name$1, "User Image")])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "span"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("hidden-xs", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Spark Ou"))]))])), $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($m_sci_Nil$())]));
+      var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "li"), $m_sci_Nil$());
+      var jsx$15 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$71 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+      var t$8 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$8, this$71.name$1, "#");
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$73 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("data-toggle");
+      var t$9 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var jsx$13 = jsx$29.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$28.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$27, jsx$17, jsx$16.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$15.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$14, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$9, this$73.name$1, "control-sidebar")])).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "i"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa fa-gears", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]))]))]))]))]));
+      var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("navbar-custom-menu", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "ul"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav navbar-nav", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)]));
+      var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var as$1 = P.menus$1;
+      var a = jsx$35.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$30, jsx$13, jsx$12.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$10.toTagMod$extension__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_TagMod(as$1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, P$1) {
+        return (function(item$2$1) {
+          var item$1 = $as_Lcom_ouspark_dashboard_models_NavMenu(item$2$1);
+          var jsx$40 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var jsx$39 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var jsx$38 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+          var this$86 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+          var t$10 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+          var jsx$37 = jsx$39.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("a", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$38, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$10, this$86.name$1, "#")]));
+          var jsx$36 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var v$1 = item$1.name$1;
+          return jsx$40.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$37.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$36.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("span", new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v$1)]))])), P$1.ctrl$1.setOnClick__O__Ljapgolly_scalajs_react_vdom_TagMod(item$1.route$1)]))
+        })
+      })(this$3$1, P)))]))]))]));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  return this
+});
+$c_Lcom_ouspark_dashboard_components_Notification$.prototype.apply__Lcom_ouspark_dashboard_components_Navigation$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(props) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+var $d_Lcom_ouspark_dashboard_components_Notification$ = new $TypeData().initClass({
+  Lcom_ouspark_dashboard_components_Notification$: 0
+}, false, "com.ouspark.dashboard.components.Notification$", {
+  Lcom_ouspark_dashboard_components_Notification$: 1,
+  O: 1
+});
+$c_Lcom_ouspark_dashboard_components_Notification$.prototype.$classData = $d_Lcom_ouspark_dashboard_components_Notification$;
+var $n_Lcom_ouspark_dashboard_components_Notification$ = (void 0);
+function $m_Lcom_ouspark_dashboard_components_Notification$() {
+  if ((!$n_Lcom_ouspark_dashboard_components_Notification$)) {
+    $n_Lcom_ouspark_dashboard_components_Notification$ = new $c_Lcom_ouspark_dashboard_components_Notification$().init___()
+  };
+  return $n_Lcom_ouspark_dashboard_components_Notification$
 }
 /** @constructor */
 function $c_Lcom_ouspark_dashboard_components_Sidebar$() {
@@ -9124,6 +9225,17 @@ $c_sr_AbstractFunction3.prototype.toString__T = (function() {
   return "<function3>"
 });
 /** @constructor */
+function $c_sr_AbstractFunction4() {
+  $c_O.call(this)
+}
+$c_sr_AbstractFunction4.prototype = new $h_O();
+$c_sr_AbstractFunction4.prototype.constructor = $c_sr_AbstractFunction4;
+/** @constructor */
+function $h_sr_AbstractFunction4() {
+  /*<skip>*/
+}
+$h_sr_AbstractFunction4.prototype = $c_sr_AbstractFunction4.prototype;
+/** @constructor */
 function $c_sr_BooleanRef() {
   $c_O.call(this);
   this.elem$1 = false
@@ -13247,6 +13359,224 @@ var $d_sjsr_RuntimeLong = new $TypeData().initClass({
   jl_Comparable: 1
 });
 $c_sjsr_RuntimeLong.prototype.$classData = $d_sjsr_RuntimeLong;
+/** @constructor */
+function $c_Lcom_ouspark_dashboard_components_MsgItem() {
+  $c_O.call(this);
+  this.msg$1 = null
+}
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype = new $h_O();
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.constructor = $c_Lcom_ouspark_dashboard_components_MsgItem;
+/** @constructor */
+function $h_Lcom_ouspark_dashboard_components_MsgItem() {
+  /*<skip>*/
+}
+$h_Lcom_ouspark_dashboard_components_MsgItem.prototype = $c_Lcom_ouspark_dashboard_components_MsgItem.prototype;
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.productPrefix__T = (function() {
+  return "MsgItem"
+});
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_ouspark_dashboard_components_MsgItem(x$1)) {
+    var MsgItem$1 = $as_Lcom_ouspark_dashboard_components_MsgItem(x$1);
+    return (this.msg$1 === MsgItem$1.msg$1)
+  } else {
+    return false
+  }
+});
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.msg$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.init___T = (function(msg) {
+  this.msg$1 = msg;
+  return this
+});
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_ouspark_dashboard_components_MsgItem(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_ouspark_dashboard_components_MsgItem)))
+}
+function $as_Lcom_ouspark_dashboard_components_MsgItem(obj) {
+  return (($is_Lcom_ouspark_dashboard_components_MsgItem(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.ouspark.dashboard.components.MsgItem"))
+}
+function $isArrayOf_Lcom_ouspark_dashboard_components_MsgItem(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_ouspark_dashboard_components_MsgItem)))
+}
+function $asArrayOf_Lcom_ouspark_dashboard_components_MsgItem(obj, depth) {
+  return (($isArrayOf_Lcom_ouspark_dashboard_components_MsgItem(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.ouspark.dashboard.components.MsgItem;", depth))
+}
+var $d_Lcom_ouspark_dashboard_components_MsgItem = new $TypeData().initClass({
+  Lcom_ouspark_dashboard_components_MsgItem: 0
+}, false, "com.ouspark.dashboard.components.MsgItem", {
+  Lcom_ouspark_dashboard_components_MsgItem: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_ouspark_dashboard_components_MsgItem.prototype.$classData = $d_Lcom_ouspark_dashboard_components_MsgItem;
+/** @constructor */
+function $c_Lcom_ouspark_dashboard_components_MsgSection() {
+  $c_O.call(this);
+  this.liCls$1 = null;
+  this.icon$1 = null;
+  this.labelCls$1 = null;
+  this.messages$1 = null
+}
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype = new $h_O();
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.constructor = $c_Lcom_ouspark_dashboard_components_MsgSection;
+/** @constructor */
+function $h_Lcom_ouspark_dashboard_components_MsgSection() {
+  /*<skip>*/
+}
+$h_Lcom_ouspark_dashboard_components_MsgSection.prototype = $c_Lcom_ouspark_dashboard_components_MsgSection.prototype;
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.productPrefix__T = (function() {
+  return "MsgSection"
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.productArity__I = (function() {
+  return 4
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.init___T__T__T__sc_Seq = (function(liCls, icon, labelCls, messages) {
+  this.liCls$1 = liCls;
+  this.icon$1 = icon;
+  this.labelCls$1 = labelCls;
+  this.messages$1 = messages;
+  return this
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_ouspark_dashboard_components_MsgSection(x$1)) {
+    var MsgSection$1 = $as_Lcom_ouspark_dashboard_components_MsgSection(x$1);
+    if ((((this.liCls$1 === MsgSection$1.liCls$1) && (this.icon$1 === MsgSection$1.icon$1)) && (this.labelCls$1 === MsgSection$1.labelCls$1))) {
+      var x = this.messages$1;
+      var x$2 = MsgSection$1.messages$1;
+      return ((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.liCls$1;
+      break
+    }
+    case 1: {
+      return this.icon$1;
+      break
+    }
+    case 2: {
+      return this.labelCls$1;
+      break
+    }
+    case 3: {
+      return this.messages$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_ouspark_dashboard_components_MsgSection(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_ouspark_dashboard_components_MsgSection)))
+}
+function $as_Lcom_ouspark_dashboard_components_MsgSection(obj) {
+  return (($is_Lcom_ouspark_dashboard_components_MsgSection(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.ouspark.dashboard.components.MsgSection"))
+}
+function $isArrayOf_Lcom_ouspark_dashboard_components_MsgSection(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_ouspark_dashboard_components_MsgSection)))
+}
+function $asArrayOf_Lcom_ouspark_dashboard_components_MsgSection(obj, depth) {
+  return (($isArrayOf_Lcom_ouspark_dashboard_components_MsgSection(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.ouspark.dashboard.components.MsgSection;", depth))
+}
+var $d_Lcom_ouspark_dashboard_components_MsgSection = new $TypeData().initClass({
+  Lcom_ouspark_dashboard_components_MsgSection: 0
+}, false, "com.ouspark.dashboard.components.MsgSection", {
+  Lcom_ouspark_dashboard_components_MsgSection: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection.prototype.$classData = $d_Lcom_ouspark_dashboard_components_MsgSection;
+/** @constructor */
+function $c_Lcom_ouspark_dashboard_components_MsgSection$() {
+  $c_sr_AbstractFunction4.call(this)
+}
+$c_Lcom_ouspark_dashboard_components_MsgSection$.prototype = new $h_sr_AbstractFunction4();
+$c_Lcom_ouspark_dashboard_components_MsgSection$.prototype.constructor = $c_Lcom_ouspark_dashboard_components_MsgSection$;
+/** @constructor */
+function $h_Lcom_ouspark_dashboard_components_MsgSection$() {
+  /*<skip>*/
+}
+$h_Lcom_ouspark_dashboard_components_MsgSection$.prototype = $c_Lcom_ouspark_dashboard_components_MsgSection$.prototype;
+$c_Lcom_ouspark_dashboard_components_MsgSection$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection$.prototype.toString__T = (function() {
+  return "MsgSection"
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection$.prototype.apply$default$4__sc_Seq = (function() {
+  $m_sci_List$();
+  var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array([new $c_Lcom_ouspark_dashboard_components_MsgItem().init___T("You have xx messages")]);
+  var this$2 = $m_sci_List$();
+  var cbf = this$2.ReusableCBFInstance$2;
+  return $as_sci_List($f_sc_TraversableLike__to__scg_CanBuildFrom__O(xs, cbf))
+});
+var $d_Lcom_ouspark_dashboard_components_MsgSection$ = new $TypeData().initClass({
+  Lcom_ouspark_dashboard_components_MsgSection$: 0
+}, false, "com.ouspark.dashboard.components.MsgSection$", {
+  Lcom_ouspark_dashboard_components_MsgSection$: 1,
+  sr_AbstractFunction4: 1,
+  O: 1,
+  F4: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_ouspark_dashboard_components_MsgSection$.prototype.$classData = $d_Lcom_ouspark_dashboard_components_MsgSection$;
+var $n_Lcom_ouspark_dashboard_components_MsgSection$ = (void 0);
+function $m_Lcom_ouspark_dashboard_components_MsgSection$() {
+  if ((!$n_Lcom_ouspark_dashboard_components_MsgSection$)) {
+    $n_Lcom_ouspark_dashboard_components_MsgSection$ = new $c_Lcom_ouspark_dashboard_components_MsgSection$().init___()
+  };
+  return $n_Lcom_ouspark_dashboard_components_MsgSection$
+}
 /** @constructor */
 function $c_Lcom_ouspark_dashboard_components_Navigation$Props() {
   $c_O.call(this);
