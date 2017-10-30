@@ -1,6 +1,6 @@
 package com.ouspark.dashboard.components
 
-import com.ouspark.dashboard.routes.Workspace
+import com.ouspark.dashboard.routes.WorkspaceItem
 import japgolly.scalajs.react.extra.router.RouterCtl
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.html_<^._
@@ -11,7 +11,7 @@ import japgolly.scalajs.react.vdom.html_<^._
   */
 object Sidebar {
 
-  case class Props(menus: Vector[Workspace], selectedPage: Workspace, ctrl: RouterCtl[Workspace])
+  case class Props(menus: Vector[WorkspaceItem], selectedPage: WorkspaceItem, ctrl: RouterCtl[WorkspaceItem])
 
   val component = ScalaComponent.builder[Props]("Sidebar")
     .render_P { P =>
