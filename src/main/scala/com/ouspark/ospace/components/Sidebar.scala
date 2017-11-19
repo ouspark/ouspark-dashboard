@@ -48,20 +48,16 @@ object Sidebar {
       if (li.isHeader) {
         <li class="header">{ li.headerName.get }</li>
       } else {
-        val space = { li.space.get }
+        val space = { li.space }
         if (li.childs.isEmpty) {
-          if (SpaceRoute.spaces.bind.name == space.name) {
-            <li class="active"><a href={ space.link }><i class={ space.spaceConf.get.fa }></i>
-              <span>{ space.spaceName } </span></a>
-            </li>
-          } else {
-            <li><a href={ space.link }><i class={ space.spaceConf.get.fa }></i>
-              <span>{ space.spaceName } </span></a>
-            </li>
-          }
+          val cls = { if (space.name.contains(SpaceRoute.spaces.bind.name)) "active" else "" }
+          <li class={ cls }><a href={ space.link }><i class={ space.spaceConf.get.fa }></i>
+            <span>{ space.spaceName } </span></a>
+          </li>
         } else {
-          <li class="treeview">
-            <a href="#"><i class={ space.spaceConf.get.fa }></i> { space.spaceName }
+          val cls = { if (SpaceRoute.spaces.bind.name.startsWith(space.name)) "active treeview" else "treeview" }
+          <li class={ cls }>
+            <a href="#"><i class={ space.spaceConf.get.fa }></i><span>{ space.spaceName }</span>
               <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
@@ -75,12 +71,12 @@ object Sidebar {
     }
   }
 
-  val workspace_1 = LiNode(Some(Spaces.workspace_1))
-  val workspace_2 = LiNode(Some(Spaces.workspace_2))
+  val workspace_1 = LiNode(Spaces.workspace_1)
+  val workspace_2 = LiNode(Spaces.workspace_2)
   val workspaceModel = SpaceModel("workspace", "Workspace", Some(SpaceStyle.workspace), None)
-  val workspace = LiNode(Some(workspaceModel), false, None, Some(List(workspace_1, workspace_2)))
-  val navigation = LiNode(None, true, Some("MAIN NAVIGATION"))
-  val dashboard = LiNode(Some(Spaces.dashboard))
+  val workspace = LiNode(workspaceModel, false, None, Some(List(workspace_1, workspace_2)))
+  val navigation = LiNode(Spaces.nonespace, true, Some("MAIN NAVIGATION"))
+  val dashboard = LiNode(Spaces.dashboard)
 
   val lis = List(dashboard, navigation, workspace)
 
@@ -88,5 +84,5 @@ object Sidebar {
 
 
 
-case class LiNode(space: Option[SpaceModel] = None, isHeader: Boolean = false, headerName: Option[String] = None, childs: Option[Seq[LiNode]] = None)
+case class LiNode(space: SpaceModel, isHeader: Boolean = false, headerName: Option[String] = None, childs: Option[Seq[LiNode]] = None)
 
