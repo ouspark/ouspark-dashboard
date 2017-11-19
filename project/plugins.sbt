@@ -1,2 +1,3 @@
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.15")
-addSbtPlugin("com.lihaoyi" % "workbench" % "0.2.3")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.19")
+
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.9.0")
